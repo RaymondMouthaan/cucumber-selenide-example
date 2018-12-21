@@ -12,7 +12,7 @@ public class GoogleResultsSteps {
         googleResultsPage.checkResults(result);
     }
 
-    @And("the {int} (st|nd) result must be {string}")
+    @And("the {int}(st|nd) result must be {string}")
     public void theStResultMustBe(int index, String result) {
         googleResultsPage.checkResult(index, result);
     }
